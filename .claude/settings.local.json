@@ -12,7 +12,8 @@
       "Bash(for dir in fundamentals/ch{18..30}*/)",
       "Bash(ls:*)",
       "Bash(done)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(test:*)"
     ],
     "deny": [],
     "ask": []
