@@ -244,7 +244,7 @@ git push origin main
 
 ## Completed Chapters/Milestones
 
-### ✅ Completed (Current Progress: 6.67%)
+### ✅ Completed (Current Progress: 10.0%)
 
 **Fundamentals**:
 - **Ch01: Variables and Data Types (變數與資料型態)** - 2025-10-05
@@ -254,6 +254,14 @@ git push origin main
   - ✅ 20 題課後習題 + 完整解答
   - ✅ 30 題自我測驗
 
+- **Ch02: Operators and Expressions (運算子與表達式)** - 2025-10-05
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 8 個講義範例 + 5 個詳解範例
+  - ✅ 8 題課堂練習
+  - ✅ 12 題課後習題（基礎/中級/挑戰）+ 完整解答
+  - ✅ 20 題自我測驗（15 選擇題 + 5 程式題）
+  - ✅ 涵蓋算術、比較、邏輯運算子及優先順序
+
 **Milestones**:
 - **M01: Simple Calculator (簡易計算機)** - 2025-10-05
   - ✅ 4 個檔案完整建立
@@ -261,7 +269,6 @@ git push origin main
 
 ### 🔄 In Progress
 
-- Ch02: Operators and Expressions (運算子與表達式)
 - Ch03: Input/Output and Formatting (輸入輸出與格式化)
 
 ### ⏳ Planned (29 chapters + 7 milestones remaining)
