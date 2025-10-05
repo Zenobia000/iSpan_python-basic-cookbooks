@@ -244,36 +244,48 @@ git push origin main
 
 ## Completed Chapters/Milestones
 
-### ✅ Completed (Current Progress: 13.3%)
+### ✅ Completed (Current Progress: 20.0%)
 
-**Fundamentals**:
+**Part I: 計算基礎 (Ch01-Ch03) - 100% 完成** ✅
 - **Ch01: Variables and Data Types (變數與資料型態)** - 2025-10-05
   - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
-  - ✅ 5 個詳解範例
-  - ✅ 15 題課堂練習
-  - ✅ 20 題課後習題 + 完整解答
-  - ✅ 30 題自我測驗
+  - ✅ 5 個詳解範例、15 題課堂練習、20 題課後習題、30 題自我測驗
 
 - **Ch02: Operators and Expressions (運算子與表達式)** - 2025-10-05
   - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
-  - ✅ 8 個講義範例 + 5 個詳解範例
-  - ✅ 8 題課堂練習
-  - ✅ 12 題課後習題（基礎/中級/挑戰）+ 完整解答
-  - ✅ 20 題自我測驗（15 選擇題 + 5 程式題）
+  - ✅ 8 個講義範例 + 5 個詳解範例、8 題課堂練習、12 題課後習題、20 題自我測驗
   - ✅ 涵蓋算術、比較、邏輯運算子及優先順序
 
 - **Ch03: Input/Output and Formatting (輸入輸出與格式化)** - 2025-10-05
   - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
-  - ✅ 8 個講義範例 + 5 個詳解範例
-  - ✅ 6 題課堂練習
-  - ✅ 12 題課後習題 + 完整解答
-  - ✅ 20 題自我測驗
+  - ✅ 8 個講義範例 + 5 個詳解範例、6 題課堂練習、12 題課後習題、20 題自我測驗
   - ✅ 涵蓋 print(), input(), f-string 格式化、對齊、精度
+
+**Part II: 控制結構 (Ch04-Ch06) - 100% 完成** ✅
+- **Ch04: Conditionals (條件判斷)** - 2025-10-05
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 8 個講義範例 + 5 個詳解範例、15 題課堂練習、20 題課後習題、25 題自我測驗
+  - ✅ 涵蓋 if/elif/else、比較運算子、邏輯運算子、巢狀條件、三元運算子
+
+- **Ch05: Loops (迴圈控制)** - 2025-10-05
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 12 個講義範例 + 5 個詳解範例、15 題課堂練習、20 題課後習題、25 題自我測驗
+  - ✅ 涵蓋 for/while 迴圈、break/continue、巢狀迴圈、累加器模式
+
+- **Ch06: Advanced Loop Techniques (迴圈進階技巧)** - 2025-10-05
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 10 個講義範例 + 5 個詳解範例、12 題課堂練習、15 題課後習題、20 題自我測驗
+  - ✅ 涵蓋 enumerate()、zip()、迴圈模式、效能優化
 
 **Milestones**:
 - **M01: Simple Calculator (簡易計算機)** - 2025-10-05
   - ✅ 4 個檔案完整建立
   - ✅ 整合 Ch01-Ch03 知識點
+
+- **M02: Number Guessing Game (終極密碼遊戲)** - 2025-10-05
+  - ✅ 4 個檔案完整建立（README + requirements + starter + solution）
+  - ✅ 整合 Ch04-Ch06 知識點
+  - ✅ 基本版 + 進階版參考解答
 
 ### 🔄 In Progress (Frameworks Established)
 
@@ -286,7 +298,7 @@ git push origin main
   - **完成度: 20%** (框架完整，README 與 Notebooks 內容待補充)
   - 詳細狀態請參考: `CH18-30_DEVELOPMENT_STATUS.md`
 
-### ⏳ Planned (16 chapters + 7 milestones remaining)
+### ⏳ Planned (24 chapters + 6 milestones remaining)
 
 See `curriculum/wbs.md` for complete roadmap.
 
