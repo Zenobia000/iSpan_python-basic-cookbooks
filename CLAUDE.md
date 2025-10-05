@@ -267,11 +267,20 @@ git push origin main
   - ✅ 4 個檔案完整建立
   - ✅ 整合 Ch01-Ch03 知識點
 
-### 🔄 In Progress
+### 🔄 In Progress (Frameworks Established)
 
-- Ch03: Input/Output and Formatting (輸入輸出與格式化)
+**以下章節已建立完整檔案框架（7個檔案/章），內容待補充**:
 
-### ⏳ Planned (29 chapters + 7 milestones remaining)
+- **Ch03: Input/Output and Formatting (輸入輸出與格式化)**
+- **Ch18-30: 進階主題框架已建立** (2025-10-05)
+  - Part V-VI: Ch18-Ch22 (物件導向進階 + 例外處理) - 35 檔案 ✅
+  - Part VII: Ch23-Ch26 (檔案處理) - 28 檔案 ✅
+  - Part VIII: Ch27-Ch30 (工程實務) - 28 檔案 ✅
+  - **總計: 91 個檔案框架已建立**
+  - **完成度: 20%** (框架完整，README 與 Notebooks 內容待補充)
+  - 詳細狀態請參考: `CH18-30_DEVELOPMENT_STATUS.md`
+
+### ⏳ Planned (16 chapters + 7 milestones remaining)
 
 See `curriculum/wbs.md` for complete roadmap.
 

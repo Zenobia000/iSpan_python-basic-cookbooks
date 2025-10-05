@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv:*)",
+      "Bash(python:*)",
+      "Bash(iconv:*)",
+      "Bash(tree:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git credential-manager-core:*)",
+      "Bash(for dir in fundamentals/ch{18..30}*/)",
+      "Bash(ls:*)",
+      "Bash(done)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
