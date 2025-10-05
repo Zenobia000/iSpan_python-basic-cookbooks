@@ -1,0 +1,279 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Repository Overview
+
+**iSpan_python-basic-cookbooks** is a comprehensive Python learning curriculum designed for absolute beginners (零基礎學習者). The repository follows a **textbook-style structure** based on First Principles → Fundamentals → Body of Knowledge framework, with all materials in **Traditional Chinese (繁體中文)**.
+
+## New Curriculum Architecture (v2.0)
+
+The repository has been restructured following university-level computer science textbook standards:
+
+### Core Structure
+```
+fundamentals/          # 30 chapters (ch01-ch30), each self-contained
+milestones/           # 8 project-based assessments
+curriculum/           # Course design & teaching guides
+resources/            # Cheatsheets, references, tools
+legacy/              # Original Module2-9 (preserved for reference)
+```
+
+### Chapter Organization (Fundamentals)
+Each chapter (e.g., `fundamentals/ch01-variables-and-types/`) contains:
+
+| File | Purpose | Format |
+|:-----|:--------|:-------|
+| `README.md` | Chapter overview, learning objectives, concepts | Textbook-style guide |
+| `01-lecture.ipynb` | Main lecture with theory & examples | Jupyter Notebook |
+| `02-worked-examples.ipynb` | Step-by-step solved problems | Jupyter Notebook |
+| `03-practice.ipynb` | In-class exercises | Jupyter Notebook |
+| `04-exercises.ipynb` | Homework problems | Jupyter Notebook |
+| `05-solutions.ipynb` | Complete solutions | Jupyter Notebook |
+| `quiz.ipynb` | Self-assessment quiz | Jupyter Notebook |
+
+### Milestone Projects
+Each milestone (e.g., `milestones/milestone01-calculator/`) includes:
+- `README.md`: Project description, requirements, rubric
+- `requirements.ipynb`: Detailed specs
+- `starter-code.ipynb`: Template code
+- `solution.ipynb`: Reference implementation
+
+## Pedagogical Principles
+
+### 1. Textbook Structure
+Every chapter follows this proven format:
+```
+📖 Learning Objectives → 🔑 Key Concepts → 📝 Theory →
+💡 Worked Examples → 🛠️ Practice → 📊 Summary →
+✍️ Review Questions → 💻 Exercises → 🔗 Further Reading
+```
+
+### 2. First Principles Teaching
+- Start each concept with "Why does this exist?"
+- Show minimal viable implementation
+- Build up from fundamentals to advanced usage
+
+### 3. Learning-Oriented Design
+- **Competency-based**: Clear skill checkboxes for each chapter
+- **Progressive difficulty**: Easy → Medium → Challenge
+- **Immediate feedback**: Solutions provided for all exercises
+
+## Running Code
+
+### Jupyter Notebooks
+```bash
+# Launch Jupyter in the project directory
+jupyter notebook
+
+# Or use JupyterLab
+jupyter lab
+```
+
+### Python Scripts
+```bash
+# Run individual scripts from their module directory
+python Module3/practice.py
+python Module9/9-1.py
+
+# Or from project root
+python -m Module3.practice
+```
+
+## Content Creation Guidelines
+
+### When Creating New Chapters
+Follow this template structure for consistency:
+
+**README.md must include**:
+1. Chapter Information (學習時數, 難度, 先備知識)
+2. Learning Objectives (知識/理解/應用/分析四層次)
+3. Key Concepts (概念地圖 + First Principles 解析)
+4. Course Materials (檔案說明表)
+5. Competency Checklist (能力檢核)
+6. Teaching Tips (授課要點 + 常見困難)
+7. Further Reading (延伸資源)
+
+**Lecture Notebook (01-lecture.ipynb) structure**:
+```markdown
+# Part I: 理論基礎
+- Chapter Overview (學習目標, 先備知識, 時長)
+- Key Concepts (定義, First Principles 分析)
+
+# Part II: 實作演練
+- 範例 1-5 (由淺入深)
+
+# Part III: 本章總結
+- 知識回顧
+- 常見誤區
+- 自我檢核
+- 延伸閱讀
+```
+
+### When Creating Milestone Projects
+**README.md must include**:
+1. Project Objectives (整合哪些章節)
+2. Project Description (情境, 需求, 規格)
+3. Learning Outcomes (知識/技能/態度)
+4. Development Guide (3 階段開發步驟)
+5. Grading Rubric (評分標準)
+6. Teaching Tips (評分重點, 常見問題)
+7. Extension Challenges (延伸挑戰)
+
+## Language and Content Notes
+
+- **Primary Language**: All instructional content in **Traditional Chinese (繁體中文)**
+- **Code Comments**: Chinese for explanatory comments, English for variable names (following PEP 8)
+- **Bilingual Terms**: Key concepts presented as "中文 | English" (e.g., "變數 | Variables")
+- **Maintain Consistency**: When creating new materials, follow the textbook-style tone and structure
+
+## Working with Legacy Content
+
+- **Legacy folder**: Original Module2-9 preserved for reference only
+- **Migration**: Gradually migrate content to new chapter structure
+- **Do not modify**: Keep legacy files unchanged; create new versions in fundamentals/
+
+## Curriculum Roadmap
+
+### 30 Chapters Overview
+```
+Part I   (Ch 1-3):   Variables, Operators, I/O
+Part II  (Ch 4-6):   Conditionals, Loops, Advanced Iteration
+Part III (Ch 7-11):  Lists, Tuples, Strings, Dicts, Sets, Comprehensions
+Part IV  (Ch 12-15): Functions, Scope, Higher-Order, Recursion
+Part V   (Ch 16-19): Classes, Encapsulation, Inheritance, Special Methods
+Part VI  (Ch 20-22): Exceptions, Custom Exceptions, Debugging
+Part VII (Ch 23-26): File I/O, JSON, CSV, Paths
+Part VIII(Ch 27-30): Modules, Packages, Style, Version Control
+```
+
+### 8 Milestones
+```
+M1: Calculator          (Ch 1-3)
+M2: Guessing Game       (Ch 4-6)
+M3: Grade System        (Ch 7-11)
+M4: Text Toolkit        (Ch 12-15)
+M5: Banking System      (Ch 16-19)
+M6: User Registration   (Ch 20-22)
+M7: Todo App            (Ch 23-26)
+M8: Project Refactor    (Ch 27-30)
+```
+
+## Architecture Considerations
+
+- **Pure Python**: No external dependencies beyond standard library and Jupyter
+- **No Tests**: Intentionally no pytest/unittest; focus is on learning, not TDD
+- **Sequential Learning**: Chapters build upon each other (1→2→3→...→30)
+- **Self-Contained**: Each chapter can be studied independently with prerequisites noted
+
+## Development Workflow
+
+### Completing a Chapter or Milestone
+
+When you finish developing a chapter or milestone, follow this workflow:
+
+#### 1. **Content Completion Checklist**
+- [ ] All required files created (7 files for chapter, 4 files for milestone)
+- [ ] All code tested and working
+- [ ] README.md updated
+- [ ] Meets quality standards (see below)
+
+#### 2. **Git Commit Process**
+```bash
+# Add changes
+git add .
+
+# Commit with standard message format
+git commit -m "feat: 完成 Ch0X - 章節名稱 | Chapter Title
+
+- 新增 README.md
+- 新增 01-lecture.ipynb
+- 新增 02-worked-examples.ipynb
+- 新增 03-practice.ipynb
+- 新增 04-exercises.ipynb
+- 新增 05-solutions.ipynb
+- 新增 quiz.ipynb
+- X 個範例，Y 個習題
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+"
+
+# Push to GitHub
+git push origin main
+```
+
+#### 3. **Update WBS and CLAUDE.md**
+
+After each chapter/milestone completion:
+
+1. **Update `curriculum/wbs.md`**:
+   - Change GitHub status from ⏳ to ✅
+   - Update completion date
+   - Update progress statistics
+
+2. **Update `CLAUDE.md`** (this file):
+   - Add completed item to "Completed Chapters/Milestones" section below
+   - Update overall progress percentage
+   - Update any workflow changes if applicable
+
+#### 4. **Commit Documentation Updates**
+```bash
+git add curriculum/wbs.md CLAUDE.md
+git commit -m "docs: 更新 WBS 與 CLAUDE.md - Ch0X 完成狀態"
+git push origin main
+```
+
+### Quality Standards for Completion
+
+**Each Chapter Must Have**:
+- [ ] README with complete First Principles analysis
+- [ ] Lecture with 5+ examples
+- [ ] Worked Examples with 3-5 detailed solutions
+- [ ] Exercises with 10+ problems (basic/intermediate/challenge)
+- [ ] Complete solutions
+- [ ] Quiz with multiple choice + coding questions
+
+**Each Milestone Must Have**:
+- [ ] Clear functional requirements (basic + advanced)
+- [ ] Complete development guide
+- [ ] Grading rubric
+- [ ] Teaching tips (common issues, grading focus)
+- [ ] Reference solution with best practices
+
+---
+
+## Completed Chapters/Milestones
+
+### ✅ Completed (Current Progress: 6.67%)
+
+**Fundamentals**:
+- **Ch01: Variables and Data Types (變數與資料型態)** - 2025-10-05
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 5 個詳解範例
+  - ✅ 15 題課堂練習
+  - ✅ 20 題課後習題 + 完整解答
+  - ✅ 30 題自我測驗
+
+**Milestones**:
+- **M01: Simple Calculator (簡易計算機)** - 2025-10-05
+  - ✅ 4 個檔案完整建立
+  - ✅ 整合 Ch01-Ch03 知識點
+
+### 🔄 In Progress
+
+- Ch02: Operators and Expressions (運算子與表達式)
+- Ch03: Input/Output and Formatting (輸入輸出與格式化)
+
+### ⏳ Planned (29 chapters + 7 milestones remaining)
+
+See `curriculum/wbs.md` for complete roadmap.
+
+---
+
+## Key Files for Reference
+
+- `curriculum/curriculum-design.md`: Complete course architecture documentation
+- `curriculum/wbs.md`: **Work Breakdown Structure with detailed progress tracking**
+- `curriculum/learning-roadmap.md`: Learning paths for different learner types
+- `fundamentals/ch01-variables-and-types/`: Example chapter showing standard structure
+- `milestones/milestone01-calculator/`: Example project showing standard structure
