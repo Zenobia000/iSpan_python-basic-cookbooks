@@ -244,7 +244,7 @@ git push origin main
 
 ## Completed Chapters/Milestones
 
-### ✅ Completed (Current Progress: 36.7%)
+### ✅ Completed (Current Progress: 43.3%)
 
 **Part I: 計算基礎 (Ch01-Ch03) - 100% 完成** ✅
 - **Ch01: Variables and Data Types (變數與資料型態)** - 2025-10-05
@@ -277,7 +277,7 @@ git push origin main
   - ✅ 10 個講義範例 + 5 個詳解範例、12 題課堂練習、15 題課後習題、20 題自我測驗
   - ✅ 涵蓋 enumerate()、zip()、迴圈模式、效能優化
 
-**Milestones**:
+**Milestones - 3/8 完成 (37.5%)** ✅
 - **M01: Simple Calculator (簡易計算機)** - 2025-10-05
   - ✅ 4 個檔案完整建立
   - ✅ 整合 Ch01-Ch03 知識點
@@ -287,35 +287,85 @@ git push origin main
   - ✅ 整合 Ch04-Ch06 知識點
   - ✅ 基本版 + 進階版參考解答
 
-**Part V-VI: 物件導向進階與例外處理 (Ch18-Ch21) - 100% 完成** ✅
+- **M03: Grade Management System (學生成績管理系統)** - 2025-10-05
+  - ✅ 4 個檔案完整建立（README + requirements + starter + solution）
+  - ✅ 整合 Ch07-Ch11 知識點
+  - ✅ CRUD + 統計分析功能完整實作
+
+**Part III: 資料結構 (Ch07-Ch11) - 100% 完成** ✅
+- **Ch07: Lists (序列資料：列表)** - 2025-10-05
+  - ✅ 7 個檔案完整建立
+  - ✅ 12 個講義範例 + 5 個詳解範例、15 題課堂練習、20 題課後習題、25 題自我測驗
+
+- **Ch08: Tuples and Strings (序列資料：元組與字串)** - 2025-10-05
+  - ✅ 7 個檔案完整建立
+  - ✅ 12 個講義範例 + 5 個詳解範例、15 題課堂練習、20 題課後習題、25 題自我測驗
+
+- **Ch09: Dictionaries (映射資料：字典)** - 2025-10-05
+  - ✅ 7 個檔案完整建立
+  - ✅ 10 個講義範例 + 5 個詳解範例、15 題課堂練習、18 題課後習題、25 題自我測驗
+
+- **Ch10: Sets (集合資料)** - 2025-10-05
+  - ✅ 7 個檔案完整建立
+  - ✅ 8 個講義範例 + 5 個詳解範例、12 題課堂練習、15 題課後習題、20 題自我測驗
+
+- **Ch11: Comprehensions (推導式與生成器)** - 2025-10-05
+  - ✅ 7 個檔案完整建立
+  - ✅ 11 個講義範例 + 5 個詳解範例、12 題課堂練習、15 題課後習題、20 題自我測驗
+
+**Part V: 物件導向基礎 (Ch18) - 100% 完成** ✅
 - **Ch18: Inheritance and Polymorphism (繼承與多型)** - 2025-10-05
   - ✅ 7 個檔案完整 (~85KB)
   - ✅ 6 個範例 + 4 個案例 + 8 練習 + 12 習題 + 20 測驗
 
+**Part V-VI: 物件導向進階與例外處理 (Ch19-Ch21) - 100% 完成** ✅
 - **Ch19: Special Methods and Operator Overloading (特殊方法與運算子重載)** - 2025-10-05
-  - ✅ 7 個檔案完整 (~136KB)
-  - ✅ 7 個範例 + 4 個案例 + 8 練習 + 12 習題 + 20 測驗
+  - ✅ 7 個檔案完整 (~151KB)
+  - ✅ 7 個講義範例 + 4 個詳解案例 + 8 題課堂練習 + 12 題完整習題 + 20 題測驗
 
 - **Ch20: Exception Handling (例外處理機制)** - 2025-10-05
   - ✅ 7 個檔案完整 (~133KB)
-  - ✅ 6 個範例 + 4 個案例 + 8 練習 + 12 習題 + 20 測驗
+  - ✅ 6 個講義範例 + 4 個詳解案例 + 8 題課堂練習 + 12 題完整習題 + 20 題測驗
 
 - **Ch21: Custom Exceptions and raise (自訂例外與 raise)** - 2025-10-05
-  - ✅ 7 個檔案完整 (~134KB)
-  - ✅ 5 個範例 + 3 個案例 + 6 練習 + 10 習題 + 17 測驗
+  - ✅ 7 個檔案完整 (~140KB)
+  - ✅ 5 個講義範例 + 3 個詳解案例 + 6 題課堂練習 + 10 題課後習題 + 17 題測驗
 
 ### 🔄 In Progress
 
-**以下章節已建立完整檔案框架（7個檔案/章），內容待補充**:
-- **Ch18-30: 進階主題框架已建立** (2025-10-05)
-  - Part V-VI: Ch18-Ch22 (物件導向進階 + 例外處理) - 35 檔案 ✅
-  - Part VII: Ch23-Ch26 (檔案處理) - 28 檔案 ✅
-  - Part VIII: Ch27-Ch30 (工程實務) - 28 檔案 ✅
-  - **總計: 91 個檔案框架已建立**
-  - **完成度: 20%** (框架完整，README 與 Notebooks 內容待補充)
-  - 詳細狀態請參考: `CH18-30_DEVELOPMENT_STATUS.md`
+**Part IV: 函式與模組化 (Ch12-Ch15) - 進行中**
+- **Ch12: Function Fundamentals (函式設計基礎)** - 進行中 30%
+  - ✅ README.md (17.8KB) + 01-lecture.ipynb (26.5KB) 框架完成
+  - ⏳ 02-05 檔案及 quiz 待補充
 
-### ⏳ Planned (24 chapters + 6 milestones remaining)
+- **Ch13-15: Scope, Higher-Order, Recursion** - 進行中 20-25%
+  - ✅ 檔案框架已建立
+  - ⏳ 內容待補充
+
+**Part VI: 例外處理 (Ch22) - 進行中 71%**
+- **Ch22: Debugging (除錯技術)** - 2025-10-05
+  - ✅ README.md (21KB) + 01-lecture.ipynb (35.4KB) + 02-worked-examples (31.3KB)
+  - ✅ 03-practice.ipynb (17.6KB) + 04-exercises.ipynb (23.3KB)
+  - ⏳ 05-solutions.ipynb + quiz.ipynb 待補充（剩餘 9 小時）
+
+**Part VII-VIII: 檔案處理與工程實務 (Ch23-30) - 框架 20%**
+- **Ch23-30: 進階主題框架已建立** (2025-10-05)
+  - Part VII: Ch23-Ch26 (檔案處理) - 28 檔案框架 ✅
+  - Part VIII: Ch27-Ch30 (工程實務) - 28 檔案框架 ✅
+  - **完成度: 20%** (框架完整，內容待補充)
+
+### ⏳ Planned
+
+**待開始章節 (12 chapters remaining)**:
+- Ch16-17: 類別與物件、封裝 (Part V 基礎)
+- Ch23-30: 檔案處理與工程實務 (Part VII-VIII)
+
+**待開始專案 (5 milestones remaining)**:
+- M04: 文字處理工具箱 (Ch12-15)
+- M05: 銀行帳戶系統 (Ch16-19)
+- M06: 使用者註冊系統 (Ch20-22)
+- M07: 待辦事項管理 (Ch23-26)
+- M08: 專案模組化重構 (Ch27-30)
 
 See `curriculum/wbs.md` for complete roadmap.
 
