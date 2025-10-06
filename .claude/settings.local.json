@@ -13,7 +13,10 @@
       "Bash(ls:*)",
       "Bash(done)",
       "Bash(git push:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(for dir in fundamentals/ch19-special-methods fundamentals/ch20-exceptions fundamentals/ch21-custom-exceptions fundamentals/ch22-debugging)",
+      "Bash(do echo \"=== $dir ===\")",
+      "Bash(awk:*)"
     ],
     "deny": [],
     "ask": []
