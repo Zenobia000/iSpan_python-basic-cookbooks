@@ -16,7 +16,9 @@
       "Bash(test:*)",
       "Bash(for dir in fundamentals/ch19-special-methods fundamentals/ch20-exceptions fundamentals/ch21-custom-exceptions fundamentals/ch22-debugging)",
       "Bash(do echo \"=== $dir ===\")",
-      "Bash(awk:*)"
+      "Bash(awk:*)",
+      "Bash(for dir in milestones/milestone*/)",
+      "Bash(du:*)"
     ],
     "deny": [],
     "ask": []
