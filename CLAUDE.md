@@ -244,7 +244,7 @@ git push origin main
 
 ## Completed Chapters/Milestones
 
-### ✅ Completed (Current Progress: 63.3%)
+### ✅ Completed (Current Progress: 73.3%)
 
 **Part I: 計算基礎 (Ch01-Ch03) - 100% 完成** ✅
 - **Ch01: Variables and Data Types (變數與資料型態)** - 2025-10-05
@@ -368,26 +368,46 @@ git push origin main
   - ✅ 12 題課後習題 (23KB) + 完整解答 (28KB) + 20 題測驗 (18KB)
   - ✅ 涵蓋 print debugging, logging, pdb, breakpoint(), 科學除錯法
 
+**Part VIII: 工程實務 (Ch27-Ch30) - 100% 完成** ✅
+- **Ch27: Modules and Packages (自訂模組與套件)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 8 個講義範例 + 5 個詳解範例 + 8 題課堂練習 + 18 題課後習題 + 20 題測驗
+  - ✅ 涵蓋 import 形式、套件結構、__name__ 慣用法、循環匯入、模組搜尋路徑
+
+- **Ch28: Package Management (套件管理與虛擬環境)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 5 個講義範例 + 5 個詳解範例 + 8 題課堂練習 + 18 題課後習題 + 20 題測驗
+  - ✅ 涵蓋 pip 指令、虛擬環境建立、requirements.txt、版本管理
+
+- **Ch29: Code Style and Documentation (程式碼風格與文件)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 5 個講義範例 + 5 個詳解範例 + 8 題課堂練習 + 18 題課後習題 + 20 題測驗
+  - ✅ 涵蓋 PEP 8 規範、命名規範、docstring、type hints、flake8/black
+
+- **Ch30: Version Control Basics (版本控制基礎)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（README + 6 個 notebooks）
+  - ✅ 6 個講義範例 + 5 個詳解範例 + 8 題課堂練習 + 18 題課後習題 + 20 題測驗
+  - ✅ 涵蓋 Git 基本指令、分支管理、.gitignore、GitHub 協作、commit 規範
+
 
 ### 🔄 In Progress
 
-**Part IV: 函式與模組化 (Ch15) - 最後階段**
-- **Ch15: Recursion (遞迴思維)** - 進行中 25%
-  - ✅ README 完整章節導讀已完成
-  - ⏳ 其他 6 個檔案內容待補充
+**Part IV: 函式與模組化 (Ch13-15) - 進行中 25%**
+- **Ch13-15: Scope, Higher-Order, Recursion** - 進行中 20-25%
+  - ✅ 檔案框架已建立
+  - ⏳ 內容待補充
 
-
-**Part VII-VIII: 檔案處理與工程實務 (Ch23-30) - 框架 20%**
-- **Ch23-30: 進階主題框架已建立** (2025-10-05)
+**Part VII: 檔案處理 (Ch23-26) - 框架 20%**
+- **Ch23-26: 進階主題框架已建立** (2025-10-05)
   - Part VII: Ch23-Ch26 (檔案處理) - 28 檔案框架 ✅
-  - Part VIII: Ch27-Ch30 (工程實務) - 28 檔案框架 ✅
   - **完成度: 20%** (框架完整，內容待補充)
 
 ### ⏳ Planned
 
-**待開始章節 (11 chapters remaining)**:
-- Ch15: 遞迴思維 (Part IV 最後章節)
-- Ch23-30: 檔案處理與工程實務 (Part VII-VIII)
+**待開始章節 (7 chapters remaining)**:
+- Ch13-15: 變數作用域、高階函式、遞迴 (Part IV 最後三章)
+- Ch16-17: 類別與物件、封裝 (Part V 基礎)
+- Ch23-26: 檔案處理 (Part VII)
 
 **即將開始專案 (5 milestones remaining)**:
 - M04: 文字處理工具箱 (Ch12-15) - **優先開發**
