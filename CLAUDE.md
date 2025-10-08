@@ -277,20 +277,40 @@ git push origin main
   - ✅ 10 個講義範例 + 5 個詳解範例、12 題課堂練習、15 題課後習題、20 題自我測驗
   - ✅ 涵蓋 enumerate()、zip()、迴圈模式、效能優化
 
-**Milestones - 3/8 完成 (37.5%)** ✅
+**Milestones - 7/8 完成 (87.5%)** ✅
 - **M01: Simple Calculator (簡易計算機)** - 2025-10-05
-  - ✅ 4 個檔案完整建立
+  - ✅ 4 個檔案完整建立（12KB）
   - ✅ 整合 Ch01-Ch03 知識點
 
 - **M02: Number Guessing Game (終極密碼遊戲)** - 2025-10-05
-  - ✅ 4 個檔案完整建立（README + requirements + starter + solution）
+  - ✅ 4 個檔案完整建立（84KB）
   - ✅ 整合 Ch04-Ch06 知識點
   - ✅ 基本版 + 進階版參考解答
 
 - **M03: Grade Management System (學生成績管理系統)** - 2025-10-05
-  - ✅ 4 個檔案完整建立（README + requirements + starter + solution）
+  - ✅ 4 個檔案完整建立（64KB）
   - ✅ 整合 Ch07-Ch11 知識點
   - ✅ CRUD + 統計分析功能完整實作
+
+- **M04: Text Processing Toolkit (文字處理工具箱)** - 2025-10-08
+  - ✅ 4 個檔案完整建立（204KB）
+  - ✅ 整合 Ch12-Ch15 知識點
+  - ✅ 高階函式、Lambda、遞迴應用
+
+- **M05: Banking Account System (銀行帳戶系統)** - 2025-10-08
+  - ✅ 4 個檔案完整建立（204KB）
+  - ✅ 整合 Ch16-Ch19 知識點
+  - ✅ 完整物件導向四大支柱展示
+
+- **M06: User Registration System (使用者註冊系統)** - 2025-10-08
+  - ✅ 4 個檔案完整建立（116KB）
+  - ✅ 整合 Ch20-Ch22 知識點
+  - ✅ 例外處理與除錯實踐
+
+- **M07: Todo App Management (待辦事項管理)** - 2025-10-08
+  - ✅ 4 個檔案完整建立（116KB, 3486 行）
+  - ✅ 整合 Ch23-Ch26 知識點
+  - ✅ JSON 序列化、CSV 匯出、pathlib 路徑管理、檔案 I/O
 
 **Part III: 資料結構 (Ch07-Ch11) - 100% 完成** ✅
 - **Ch07: Lists (序列資料：列表)** - 2025-10-05
@@ -409,11 +429,7 @@ git push origin main
 - Ch16-17: 類別與物件、封裝 (Part V 基礎)
 - Ch23-26: 檔案處理 (Part VII)
 
-**即將開始專案 (5 milestones remaining)**:
-- M04: 文字處理工具箱 (Ch12-15) - **優先開發**
-- M05: 銀行帳戶系統 (Ch16-19) - **可立即開始**
-- M06: 使用者註冊系統 (Ch20-22) - **可立即開始**
-- M07: 待辦事項管理 (Ch23-26)
+**即將開始專案 (1 milestone remaining)**:
 - M08: 專案模組化重構 (Ch27-30)
 
 See `curriculum/wbs.md` for complete roadmap.
