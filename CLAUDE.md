@@ -244,7 +244,7 @@ git push origin main
 
 ## Completed Chapters/Milestones
 
-### ✅ Completed (Current Progress: 50.0%)
+### ✅ Completed (Current Progress: 63.3%)
 
 **Part I: 計算基礎 (Ch01-Ch03) - 100% 完成** ✅
 - **Ch01: Variables and Data Types (變數與資料型態)** - 2025-10-05
@@ -313,12 +313,28 @@ git push origin main
   - ✅ 7 個檔案完整建立
   - ✅ 11 個講義範例 + 5 個詳解範例、12 題課堂練習、15 題課後習題、20 題自我測驗
 
-**Part V: 物件導向基礎 (Ch18) - 100% 完成** ✅
-- **Ch18: Inheritance and Polymorphism (繼承與多型)** - 2025-10-05
-  - ✅ 7 個檔案完整 (~85KB)
-  - ✅ 6 個範例 + 4 個案例 + 8 練習 + 12 習題 + 20 測驗
+**Part V: 物件導向 (Ch16-Ch19) - 100% 完成** ✅
+- **Ch16: Classes and Objects (類別與物件)** - 2025-10-06
+  - ✅ 7 個檔案完整 (~232KB)
+  - ✅ 10 個講義範例 + 5 個詳解案例 + 12 題課堂練習 + 18 題課後習題 + 28 題測驗
+  - ✅ 涵蓋類別定義、實例化、屬性、方法、__init__、self 概念
 
-**Part IV: 函式與模組化 (Ch12) - 100% 完成** ✅
+- **Ch17: Encapsulation and Information Hiding (封裝與資訊隱藏)** - 2025-10-06
+  - ✅ 7 個檔案完整 (~212KB)
+  - ✅ 8 個講義範例 + 5 個詳解案例 + 10 題課堂練習 + 15 題課後習題 + 25 題測驗
+  - ✅ 涵蓋私有/保護屬性、property 裝飾器、getter/setter、資訊隱藏原則
+
+- **Ch18: Inheritance and Polymorphism (繼承與多型)** - 2025-10-05
+  - ✅ 7 個檔案完整 (~100KB)
+  - ✅ 6 個範例 + 4 個案例 + 8 練習 + 12 習題 + 20 測驗
+  - ✅ 涵蓋單一/多重繼承、方法覆寫、super()、多型實作
+
+- **Ch19: Special Methods and Operator Overloading (特殊方法與運算子重載)** - 2025-10-05
+  - ✅ 7 個檔案完整 (~151KB)
+  - ✅ 7 個講義範例 + 4 個詳解案例 + 8 題課堂練習 + 12 題完整習題 + 20 題測驗
+  - ✅ 涵蓋 __str__, __repr__, __len__, 運算子重載、比較方法
+
+**Part IV: 函式與模組化 (Ch12-Ch14) - 100% 完成** ✅
 - **Ch12: Function Fundamentals (函式設計基礎)** - 2025-10-06
   - ✅ 7 個檔案完整 (~177KB)
   - ✅ README (17.8KB) + 8 個講義範例 (26KB)
@@ -326,18 +342,24 @@ git push origin main
   - ✅ 18 題課後習題 (23KB) + 30 題完整解答 (37KB) + 25 題測驗 (28KB)
   - ✅ 涵蓋函式定義、參數設計、回傳值、docstring、純函式、可變預設值陷阱
 
-**Part V-VI: 物件導向進階與例外處理 (Ch19-Ch22) - 100% 完成** ✅
-- **Ch19: Special Methods and Operator Overloading (特殊方法與運算子重載)** - 2025-10-05
-  - ✅ 7 個檔案完整 (~151KB)
-  - ✅ 7 個講義範例 + 4 個詳解案例 + 8 題課堂練習 + 12 題完整習題 + 20 題測驗
+- **Ch13: Scope and Lifetime (作用域與生命週期)** - 2025-10-08
+  - ✅ 7 個檔案完整 (~180KB)
+  - ✅ 涵蓋全域/區域作用域、變數生命週期、nonlocal/global、閉包、LEGB 規則
 
+- **Ch14: Higher-Order Functions and Lambda (高階函式與 Lambda)** - 2025-10-08
+  - ✅ 7 個檔案完整 (~208KB)
+  - ✅ 涵蓋 map(), filter(), reduce(), lambda 表達式、函式裝飾器、柯里化
+
+**Part VI: 例外處理 (Ch20-Ch22) - 100% 完成** ✅
 - **Ch20: Exception Handling (例外處理機制)** - 2025-10-05
   - ✅ 7 個檔案完整 (~133KB)
   - ✅ 6 個講義範例 + 4 個詳解案例 + 8 題課堂練習 + 12 題完整習題 + 20 題測驗
+  - ✅ 涵蓋 try/except/else/finally、例外階層、多重例外處理
 
 - **Ch21: Custom Exceptions and raise (自訂例外與 raise)** - 2025-10-05
   - ✅ 7 個檔案完整 (~140KB)
   - ✅ 5 個講義範例 + 3 個詳解案例 + 6 題課堂練習 + 10 題課後習題 + 17 題測驗
+  - ✅ 涵蓋自訂例外類別、raise 語句、例外鏈接、最佳實踐
 
 - **Ch22: Debugging Techniques (除錯技術)** - 2025-10-06
   - ✅ 7 個檔案完整 (~174KB)
@@ -349,10 +371,10 @@ git push origin main
 
 ### 🔄 In Progress
 
-**Part IV: 函式與模組化 - 進行中 (Ch13-15)**
-- **Ch13-15: Scope, Higher-Order, Recursion** - 進行中 20-25%
-  - ✅ 檔案框架已建立
-  - ⏳ 內容待補充
+**Part IV: 函式與模組化 (Ch15) - 最後階段**
+- **Ch15: Recursion (遞迴思維)** - 進行中 25%
+  - ✅ README 完整章節導讀已完成
+  - ⏳ 其他 6 個檔案內容待補充
 
 
 **Part VII-VIII: 檔案處理與工程實務 (Ch23-30) - 框架 20%**
@@ -363,14 +385,14 @@ git push origin main
 
 ### ⏳ Planned
 
-**待開始章節 (12 chapters remaining)**:
-- Ch16-17: 類別與物件、封裝 (Part V 基礎)
+**待開始章節 (11 chapters remaining)**:
+- Ch15: 遞迴思維 (Part IV 最後章節)
 - Ch23-30: 檔案處理與工程實務 (Part VII-VIII)
 
-**待開始專案 (5 milestones remaining)**:
-- M04: 文字處理工具箱 (Ch12-15)
-- M05: 銀行帳戶系統 (Ch16-19)
-- M06: 使用者註冊系統 (Ch20-22)
+**即將開始專案 (5 milestones remaining)**:
+- M04: 文字處理工具箱 (Ch12-15) - **優先開發**
+- M05: 銀行帳戶系統 (Ch16-19) - **可立即開始**
+- M06: 使用者註冊系統 (Ch20-22) - **可立即開始**
 - M07: 待辦事項管理 (Ch23-26)
 - M08: 專案模組化重構 (Ch27-30)
 
