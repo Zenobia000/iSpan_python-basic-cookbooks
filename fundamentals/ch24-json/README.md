@@ -133,11 +133,11 @@ print(json_string)  # 輸出: {"name": "小明", "age": 20}
 | 檔案 | 說明 | 預計時長 | 使用時機 |
 |:-----|:-----|:---------|:---------|
 | `01-lecture.ipynb` | 📖 理論講義與範例演示 | 60 分鐘 | 課堂講授 |
-| `02-worked-examples.ipynb` | 💡 詳解範例 | 30 分鐘 | 課堂演練 |
-| `03-practice.ipynb` | 🛠️ 課堂練習 | 30 分鐘 | 隨堂實作 |
-| `04-exercises.ipynb` | ✍️ 課後習題 | 90 分鐘 | 課後自習 |
+| `02-worked-examples.ipynb` | 💡 詳解範例（5 題） | 30 分鐘 | 課堂演練 |
+| `03-practice.ipynb` | 🛠️ 課堂練習（12 題） | 30 分鐘 | 隨堂實作 |
+| `04-exercises.ipynb` | ✍️ 課後習題（18 題） | 90 分鐘 | 課後自習 |
 | `05-solutions.ipynb` | ✅ 習題完整解答 | 參考用 | 自我檢核 |
-| `quiz.ipynb` | 📝 自我測驗 | 20 分鐘 | 學習驗收 |
+| `quiz.ipynb` | 📝 自我測驗（25 題） | 20 分鐘 | 學習驗收 |
 
 ---
 
@@ -224,6 +224,27 @@ print(json_string)  # 輸出: {"name": "小明", "age": 20}
 
 ---
 
+## 💡 學習技巧（Learning Strategies）
+
+### JSON vs Python 對照表
+
+| Python 型態 | JSON 型態 | 範例 |
+|:------------|:----------|:-----|
+| `dict` | object | `{"key": "value"}` |
+| `list`, `tuple` | array | `[1, 2, 3]` |
+| `str` | string | `"hello"` |
+| `int`, `float` | number | `42`, `3.14` |
+| `True`, `False` | `true`, `false` | `true` |
+| `None` | `null` | `null` |
+
+### 實作練習建議
+1. **建立個人設定檔**：實作一個簡單的應用程式設定檔
+2. **解析 API 回應**：使用公開 API 練習解析 JSON 資料
+3. **資料轉換練習**：嘗試將 CSV 資料轉換為 JSON 格式
+4. **巢狀結構練習**：處理多層嵌套的 JSON 資料
+
+---
+
 ## 🔗 延伸資源（Additional Resources）
 
 ### Python 官方文件
@@ -243,7 +264,7 @@ print(json_string)  # 輸出: {"name": "小明", "age": 20}
 ---
 
 ## 📝 版本記錄（Version History）
-- **v1.0** (2025-10-07): 完整內容發布，包含 8 個範例、12 題習題、20 題測驗
+- **v1.0** (2025-10-08): 完整內容發布，包含 10 個範例、18 題習題、25 題測驗
 
 ---
 
