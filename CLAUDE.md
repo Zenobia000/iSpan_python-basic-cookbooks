@@ -277,7 +277,7 @@ git push origin main
   - ✅ 10 個講義範例 + 5 個詳解範例、12 題課堂練習、15 題課後習題、20 題自我測驗
   - ✅ 涵蓋 enumerate()、zip()、迴圈模式、效能優化
 
-**Milestones - 7/8 完成 (87.5%)** ✅
+**Milestones - 8/8 完成 (100%)** ✅ 🎉
 - **M01: Simple Calculator (簡易計算機)** - 2025-10-05
   - ✅ 4 個檔案完整建立（12KB）
   - ✅ 整合 Ch01-Ch03 知識點
@@ -311,6 +311,12 @@ git push origin main
   - ✅ 4 個檔案完整建立（116KB, 3486 行）
   - ✅ 整合 Ch23-Ch26 知識點
   - ✅ JSON 序列化、CSV 匯出、pathlib 路徑管理、檔案 I/O
+
+- **M08: Project Refactoring (專案模組化重構)** - 2025-10-08
+  - ✅ 4 個檔案完整建立（131KB, 3500+ 行）
+  - ✅ 整合 Ch27-Ch30 知識點
+  - ✅ 模組化設計、PEP 8 規範、Git 版本控制、套件管理
+  - ✅ 提供 M01-M07 所有專案的重構指引
 
 **Part III: 資料結構 (Ch07-Ch11) - 100% 完成** ✅
 - **Ch07: Lists (序列資料：列表)** - 2025-10-05
@@ -429,8 +435,7 @@ git push origin main
 - Ch16-17: 類別與物件、封裝 (Part V 基礎)
 - Ch23-26: 檔案處理 (Part VII)
 
-**即將開始專案 (1 milestone remaining)**:
-- M08: 專案模組化重構 (Ch27-30)
+**🎉 所有 Milestones 已完成！(8/8 = 100%)**
 
 See `curriculum/wbs.md` for complete roadmap.
 
