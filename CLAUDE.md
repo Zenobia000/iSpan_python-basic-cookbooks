@@ -416,24 +416,52 @@ git push origin main
   - ✅ 涵蓋 Git 基本指令、分支管理、.gitignore、GitHub 協作、commit 規範
 
 
-### 🔄 In Progress
+### ✅ Completed (Current Progress: 100%) 🎉
 
-**Part IV: 函式與模組化 (Ch13-15) - 進行中 25%**
-- **Ch13-15: Scope, Higher-Order, Recursion** - 進行中 20-25%
-  - ✅ 檔案框架已建立
-  - ⏳ 內容待補充
+**Part IV: 函式與模組化 (Ch12-15) - 100% 完成** ✅
+- **Ch12: Function Fundamentals (函式設計基礎)** - 2025-10-06
+  - ✅ 7 個檔案完整建立（177KB）
+  - ✅ 涵蓋函式定義、參數設計、回傳值、docstring
 
-**Part VII: 檔案處理 (Ch23-26) - 框架 20%**
-- **Ch23-26: 進階主題框架已建立** (2025-10-05)
-  - Part VII: Ch23-Ch26 (檔案處理) - 28 檔案框架 ✅
-  - **完成度: 20%** (框架完整，內容待補充)
+**Part IV: 函式與模組化 (Ch13-15) - 100% 完成** ✅
+- **Ch13: Scope and Lifetime (作用域與生命週期)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（151KB）
+  - ✅ 10 個講義範例 + 5 個詳解範例 + 課堂練習 + 習題 + 測驗
+  - ✅ 涵蓋 LEGB 規則、global/nonlocal、閉包
+
+- **Ch14: Higher-Order Functions (高階函式與 Lambda)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（173KB）
+  - ✅ 涵蓋 map/filter/reduce、Lambda、裝飾器
+
+- **Ch15: Recursion (遞迴設計)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（194KB）
+  - ✅ 涵蓋遞迴基礎、尾遞迴、分治法、動態規劃
+
+**Part VII: 檔案處理 (Ch23-26) - 100% 完成** ✅
+- **Ch23: File I/O Basics (檔案輸入輸出基礎)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（136KB）
+  - ✅ 涵蓋 open(), with 語句、編碼處理、異常處理
+
+- **Ch24: JSON Data Format (JSON 資料格式)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（150KB+，補充完成）
+  - ✅ 6 個講義範例 + 5 個詳解範例 + 15 題課堂練習 + 20 題習題 + 30 題測驗
+  - ✅ 涵蓋 dump/load、序列化、datetime 處理、巢狀結構
+
+- **Ch25: CSV Data Format (CSV 資料格式)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（150KB+，補充完成）
+  - ✅ 5 個講義範例 + 8 個詳解範例 + 課堂練習 + 20+ 題習題 + 25+ 題測驗
+  - ✅ 涵蓋 csv.reader/writer、DictReader/DictWriter、UTF-8-sig、Excel 相容
+
+- **Ch26: Path Management (路徑管理)** - 2025-10-08
+  - ✅ 7 個檔案完整建立（230KB+，補充完成）
+  - ✅ 6 個講義範例 + 5 個詳解範例 + 課堂練習 + 20 題習題 + 30 題測驗
+  - ✅ 涵蓋 pathlib.Path、跨平台路徑、glob 搜尋、目錄操作
 
 ### ⏳ Planned
 
-**待開始章節 (7 chapters remaining)**:
-- Ch13-15: 變數作用域、高階函式、遞迴 (Part IV 最後三章)
-- Ch16-17: 類別與物件、封裝 (Part V 基礎)
-- Ch23-26: 檔案處理 (Part VII)
+**待完成章節 (2 chapters remaining)**:
+- Ch16: 類別與物件 (Part V 基礎) - ⏳ 框架已建立
+- Ch17: 封裝與資訊隱藏 (Part V) - ⏳ 框架已建立
 
 **🎉 所有 Milestones 已完成！(8/8 = 100%)**
 
