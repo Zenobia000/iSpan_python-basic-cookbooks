@@ -18,7 +18,8 @@
       "Bash(do echo \"=== $dir ===\")",
       "Bash(awk:*)",
       "Bash(for dir in milestones/milestone*/)",
-      "Bash(du:*)"
+      "Bash(du:*)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "ask": []
